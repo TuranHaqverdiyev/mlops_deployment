@@ -1,6 +1,5 @@
 import os
 import pandas as pd
-import numpy as np
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.compose import ColumnTransformer
 from category_encoders import CatBoostEncoder
